@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style type="text/css">
+        * 
+        {
+            padding: 0;
+            margin: 0;
+        }
+        #Content
+        {
+            position: relative;
+            height: 1000px;
+        }
+        #divA
+        {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            /*right: 70%;*/
+            width: 310px;
+            background-image: url("jean-side.png");
+            background-repeat: no-repeat;
+        }
+        #divB
+        {
+            /*position: absolute;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            left: 30%;*/
+            width: 100%;
+            backround-size: 100% auto;
+            background-image: url("jean-body.png");
+            background-repeat: no-repeat;
+        }
+
+        button
+        {
+            margin: 20px;
+            background: url(jean-button.png);
+            background-repeat: no-repeat;
+            border: none;
+            border-radius: 70px;
+            width: 159px;
+            height: 159px;
+        }
+        button:hover
+        {
+            opacity: 80%
+        }
+    </style>
+</head>
+<body>
+    <div id="Content">
+        <div id="divA">
+        <button></button>
+        </div>
+        <div id="divB">
+        </div>
+    </div>
+</body>
+</html>
